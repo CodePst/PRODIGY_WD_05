@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Gradient Background */
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Weather App Container */
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    width: 350px;
+}
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+/* Input Field */
+input {
+    width: 85%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    padding: 12px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+    background: #ff9800;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: #ff7300;
+}
+
+/* Weather Info Card */
+.weather-card {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.weather-card img {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+}
